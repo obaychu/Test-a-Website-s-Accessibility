@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="car.jpg">
+    <link rel="stylesheet" type="text/css" href="Dune.jpg">
+    <link rel="stylesheet" type="text/css" href="cenote.jpg">
+    <link rel="stylesheet" type="text/css" href="Couple.jpg">
+    <link rel="stylesheet" type="text/css" href="Van.jpg">
+    <link rel="stylesheet" type="text/css" href="car.jpg">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+  
+</head>
+    <title>
+        Client Website
+    </title>
+    <!-- Hero Banner -->
+    <body>
+        <div class="hero-banner">
+            <div class="hero-content">
+                <h1>EXPLORE</h1>
+                <h2>your dream vacation with us</h2>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+<!-- Content Section -->
+        <div class="content-section">
+            <div class="container">
+                <h2> WHAT WE DO</h2>
+                <img src="Van.jpg" alt="Yellow Vinatage Volkswagon Van driving on a road through red rock canyons. The van is driving on a road, where there is desert plants. ">
+                <p>We offer many different vacation packages for every traveller. Whether you want to relax on the beach or explore the wonders of the world, we have everything you could possibly want to see. With vacation pages for the solo traveller, group vacations, or a couple’s trip. Scroll down to see the different vacation packages we offer.</p>
+            </div>
+        </div>
+        <!-- Card Section -->
+        <div class="card-section">
+            <div class="container">
+                <div class="card">
+                    <img src="cenote.jpg" alt="Woman in a blue pool of water in the middle of the rain forrest. The pool of water has a waterfall that goes into it, she is wearing a red headband. Her back its towards us so we can't her face.">
+                    <h3>For the Relaxer</h3>
+                    <p>Relax in one of our many luxurious resorts or in nature too! </p>
+                </div>
+                <div class="card">
+                    <img src="Couple.jpg" alt="A couple is overlooking the sunset, they are on the top of the Mountains. They are both holding hands and their backs are towards us so we don't see their faces. The man is on the left-hand side and the woman is on tehn right. He is pointing into the distance">
+                    <h3>For the Explorer</h3>
+                    <p>We have many vacation packages that are for those who want to get out and explore!</p>
+                </div>
+                <div class="card">
+                    <img src="car.jpg" alt=" A red car parked on a road of a beach with palm tree's. The ocean is in the distance in the background, there is a sidewalk on the left side that looks old and paved ">
+                    <h3>For the Luxurious </h3>
+                    <p>Or if you want to travel in style we have many car or villa rentals of your choosing. </p>
+                </div>
+            </div>
+        </div>
+        <!-- Embedded Video-->
+        <div class="card">
+            <div class="video-container">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/Fx7JNo8aja0?si=4RqWiD_3usVOBaFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="card-content">
+            <h2>WHERE WE HAVE BEEN</h2> 
+            </div>
+        </div>
+
+    <!-- Accordian -->
+    <div class="accordion-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3> Is it Safe to Travel alone?</h3>
+                        <div class="toggle-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>While we cannot gaurantee safety, we can suggest booking one of our group packages. This means you can go together in a group with other solos travellers.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Do you have Honeymoon Packages?</h3>
+                        <div class="toggle-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We have all sorts of couples packages, we can accomodate for many trips, wether its honeymoon, couples retreat, or a romatic getwaway. </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>What if I can't afford to Travel right now?</h3>
+                        <div class="toggle-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p> Don't worry! We offer financing for those who don't have the funds! Just give us all your bank information and we'll take care of the rest!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Java.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> EXPLORE. All rights reserved.</p>
+            <p>
+                Click the icons bellow to check out our social media 
+            </p>
+            <div class="social-icons">
+                <a href="#" class="icon-link"><span class="fab fa-facebook-f"></span></a>
+                <a href="#" class="icon-link"><span class="fab fa-twitter"></span></a>
+                <a href="#" class="icon-link"><span class="fab fa-instagram"></span></a>
+                <a href="#" class="icon-link"><span class="fab fa-linkedin-in"></span></a>
+                </div>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to dynamically set the current year in the footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    </body>
+</html>
